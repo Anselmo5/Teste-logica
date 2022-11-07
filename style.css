@@ -1,0 +1,107 @@
+body{
+    background-color: #5e5454;
+}
+
+*{
+    padding: 0;
+    border: none;
+    margin: 0;
+    box-sizing: border-box;
+}
+.alinhamento{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+
+h1{
+text-align: center;
+font-size: 1.3rem;
+margin-top: 4vh;
+}
+
+.fons{
+margin-top: 1rem;
+width: 25rem;
+height: 36rem;
+background-color: #333333ce;
+border-radius: 1vh;
+animation: borde-alinha infinite ;
+animation-duration: 10s ;
+
+}
+
+.alin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.alins{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn{
+    display: flex;
+    justify-content:space-evenly;
+    align-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.btn button{
+    margin-top:5rem;
+}
+
+.inp1 input,
+.inp3 input,
+.inp2 input{
+    background-color: antiquewhite;
+    margin-top: 0.5rem;
+    border: 0;
+    height: 2rem;
+    width:10rem;
+    padding: 5px;
+    box-shadow: 0px 2px 0px 0px aqua;
+}
+
+.inp3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p{
+margin-top: 3rem;
+text-align: center;
+color: white;
+}
+
+.btn button{
+    border: 0;
+    border: antiquewhite;
+    box-shadow: 0px 2px 0px 0px aqua;
+    height: 2rem;
+    width: 6rem;
+    
+}
+
+.clear{
+display: flex;
+justify-content: center;
+}
+
+.clear button{
+    margin-top: 2rem;
+   box-shadow: 0px 2px aqua;
+    width: 5rem;
+    height: 2rem;
+
+}
+
